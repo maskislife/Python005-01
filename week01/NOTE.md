@@ -2,4 +2,4 @@
 
 Starting
 
-env is fedora in vm
+fedora is unstable in vmware, so switch to debian
