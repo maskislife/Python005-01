@@ -1,6 +1,0 @@
-Number
-String
-List
-Dictionary
-Tuple
-Set (I'm not sure about this)
