@@ -13,13 +13,18 @@ Number
 |   hexadecimal (`i=0x123`)    | `float('inf') or float('Infinity')` |                                 |
 
 
-
-String
-
-
+String (immutable)
+`str1 = 'string'`
 
 List
+`lst = [1,2,3]`
+
 Dictionary
-Tuple
+`d = {"a":1, "b":2}`
+
+Tuple (immutable)
+`t = (1,)`
+
 Set (I'm not sure about this)
+`s = {1,2,3,4,5}`
 
