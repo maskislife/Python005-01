@@ -28,3 +28,7 @@ Tuple (immutable)
 Set (I'm not sure about this)
 `s = {1,2,3,4,5}`
 
+
+
+
+I learnt python a little before, so first week i reviewed basic rules of python, regualr expression,time and path process. Recording logs into specific file is new and fun to me.
