@@ -28,7 +28,7 @@ class transfer_operation:
         amount = Column(Float(), nullable=False)
         operation_time = Column(DateTime(), default=datetime.now)
 
-    dbURL = 'mysql+pymysql://root:Lmy_131724@42.194.218.246:3306/dbtest?charset=utf8mb4'
+    dbURL = 'mysql+pymysql://username:password@dn_addr:3306/dn_names?charset=utf8mb4'
     engine = create_engine(dbURL, encoding='utf-8')
     Base.metadata.create_all(engine)
 

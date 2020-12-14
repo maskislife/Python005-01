@@ -23,7 +23,7 @@ class orm_demo:
         def __repr__(self):
             return f"{self.pid} - {self.name} - {self.gender} - {self.education}"
     
-    dbURL = 'mysql+pymysql://root:Lmy_131724@42.194.218.246:3306/dbtest?charset=utf8mb4'
+    dbURL = 'mysql+pymysql://username:password@db_addr:3306/dn_name?charset=utf8mb4'
     engine = create_engine(dbURL, echo=True, encoding='utf-8')
     Base.metadata.create_all(engine)
 
