@@ -60,7 +60,7 @@ class orm_demo:
 
 
 def insert_by_pymysql():
-    db = pymysql.connect('42.194.218.246', 'root', 'Lmy_131724', 'dbtest')
+    db = pymysql.connect('db_addr', 'username', 'password', 'db_name')
 
     try:  
         with db.cursor() as cursor:
